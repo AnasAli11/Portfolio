@@ -62,11 +62,15 @@ nav a:hover{
    font-weight: bolder;
 }
 #aboutinfo{
-    font-family: 'Poppins', sans-serif;
+    
     color: white;
     text-align: center;
     font-size: large;
 }
 .pak{
     color: lightgreen;
+}
+.compheadin{
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
