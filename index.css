@@ -1,99 +1,103 @@
-nav{
-    background-color: #222831;
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 15px;
-    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+nav {
+  background-color: #222831;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-body{
-    background-color: #222831;
+body {
+  background-color: #222831;
 }
 
-nav a{
-    padding: 15px 15px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+nav a {
+  padding: 15px 15px;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 #links {
-    padding: 10px;
+  padding: 10px;
 }
-nav a:hover{
-    background-color: white;
-    border-radius: 30px;
-    color: #222831; 
-    font-size: medium;
-    font-weight: bolder;
-    padding: auto;
-    margin: auto;
- }
- #home{
-    padding-top: 10px;
- }
-
-#nametext{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 80px;
-    margin-top: 230px;
-    font-weight: bolder;
+nav a:hover {
+  background-color: white;
+  border-radius: 30px;
+  color: #222831;
+  font-size: medium;
+  font-weight: bolder;
+  padding: auto;
+  margin: auto;
 }
-#infotext{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 50px;
-    font-weight: bolder;
-}
-#about{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 40px;
-    font-weight: bolder;
-    margin-top: 550px;
+#home {
+  padding-top: 10px;
 }
 
-.anasi{
-   color: rgb(255, 255, 255);
-   font-family: 'Poppins', sans-serif;
-   font-weight: bolder;
+#nametext {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 80px;
+  margin-top: 230px;
+  font-weight: bolder;
 }
-#aboutinfo{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: large;
+#infotext {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
 }
-.pak{
-    color: lightgreen;
+#about {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 550px;
 }
-.card{
-    padding: 10px  ;
-    display: flex;
-    justify-content: space-around;
 
+.anasi {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
 }
-.prog{
-    padding: 10px;
-    background-color:#333d4d ;
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
-    color: white;
-     font-family: 'Poppins', sans-serif;
-     border-radius: 7px;
+#aboutinfo {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: large;
 }
-.game{
-    padding: 10px 40px;
-    background-color:#333d4d ;
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
-    color: white;
-     font-family: 'Poppins', sans-serif;
-     border-radius: 7px;
+.pak {
+  color: lightgreen;
+}
+.card {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.prog {
+  padding: 10px 14px;
+  background-color: #333d4d;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 7px;
+}
+.game {
+  padding: 10px 40px;
+  background-color: #333d4d;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 7px;
+}
+.htmlImage{
+height: 500px;
+width: 500px;
 }
