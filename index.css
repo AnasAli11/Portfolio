@@ -78,7 +78,7 @@ nav a:hover {
   align-items: center;
 }
 .prog {
-  padding: 10px 14px;
+  padding: 10px 10px;
   background-color: #333d4d;
   border-style: solid;
   border-width: 3px;
@@ -86,9 +86,12 @@ nav a:hover {
   color: white;
   font-family: "Poppins", sans-serif;
   border-radius: 7px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
 }
 .game {
-  padding: 10px 40px;
+  padding: 10px 10px;
   background-color: #333d4d;
   border-style: solid;
   border-width: 3px;
@@ -96,8 +99,27 @@ nav a:hover {
   color: white;
   font-family: "Poppins", sans-serif;
   border-radius: 7px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
 }
 .htmlImage{
-height: 500px;
-width: 500px;
+height: 100px;
+width: 100px;
+align-items: center;
+}
+.cssImage{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+.robloximg{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+.mineimg{
+  width: 100px;
+  height: 100px;
+  align-items: center;
 }
