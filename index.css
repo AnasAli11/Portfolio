@@ -51,7 +51,9 @@ nav a:hover {
   color: white;
   font-size: 50px;
   font-weight: bolder;
-  margin-top: 450px;
+  margin-top: 350px;
+  padding-top: 100px;
+  
 }
 
 .anasi {
@@ -86,7 +88,7 @@ nav a:hover {
   color: white;
   font-family: "Poppins", sans-serif;
   border-radius: 7px;
-  height: 300px;
+  height: 250px;
   width: 300px;
   text-align: center;
 }
@@ -99,31 +101,31 @@ nav a:hover {
   color: white;
   font-family: "Poppins", sans-serif;
   border-radius: 7px;
-  height: 300px;
+  height: 250px;
   width: 300px;
   text-align: center;
 }
-.htmlImage{
-height: 100px;
-width: 100px;
-align-items: center;
+.htmlImage {
+  height: 100px;
+  width: 100px;
+  align-items: center;
 }
-.cssImage{
+.cssImage {
   width: 100px;
   height: 100px;
   align-items: center;
 }
-.robloximg{
+.robloximg {
   width: 100px;
   height: 100px;
   align-items: center;
 }
-.mineimg{
+.mineimg {
   width: 100px;
   height: 100px;
   align-items: center;
 }
-#education{
+#education {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: white;
@@ -131,7 +133,7 @@ align-items: center;
   font-weight: bolder;
   margin-top: 100px;
 }
-.edutext{
+.edutext {
   display: flex;
   font-family: "Poppins", sans-serif;
   color: white;
@@ -140,4 +142,20 @@ align-items: center;
   justify-content: center;
   padding: 0px 150px;
   margin-top: 15px;
+}
+#contact {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 100px;
+}
+.img{
+  width: 150px;
+  height: 150px;
+}
+.contimg{
+  text-align: center;
+  margin-top: 60px;
 }
