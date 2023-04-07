@@ -21,20 +21,20 @@ nav a {
   color: white;
   font-family: "Poppins", sans-serif;
 }
-#links {
+.navlink {
   padding: 10px;
 }
-nav a:hover {
-  background-color: white;
-  border-radius: 30px;
+.intolinks:hover{
+  background-color: #333d4d;
+  border-radius: 20px;
   color: #222831;
   font-size: medium;
   font-weight: bolder;
-  padding: auto;
-  margin: auto;
+  padding: 15px;
 }
 #home {
-  padding-top: 10px;
+  padding-top: 2px;
+  font-size: x-large;
 }
 
 #nametext {
@@ -62,15 +62,14 @@ nav a:hover {
   font-weight: bolder;
 }
 #aboutinfo {
-  text-align: center;
+  display: flex;
   font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
+  text-align: justify;
+  justify-content: center;
   padding: 0px 150px;
-  margin-top: 10px;
-}
-.pak {
-  color: lightgreen;
+  margin-top: 15px;
 }
 .card {
   padding: 10px;
@@ -88,7 +87,7 @@ nav a:hover {
   color: white;
   font-family: "Poppins", sans-serif;
   border-radius: 7px;
-  height: 250px;
+  height: 230px;
   width: 300px;
   text-align: center;
 }
@@ -101,7 +100,7 @@ nav a:hover {
   color: white;
   font-family: "Poppins", sans-serif;
   border-radius: 7px;
-  height: 250px;
+  height: 230px;
   width: 300px;
   text-align: center;
 }
@@ -137,7 +136,7 @@ nav a:hover {
   display: flex;
   font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   text-align: justify;
   justify-content: center;
   padding: 0px 150px;
@@ -150,6 +149,7 @@ nav a:hover {
   font-size: 50px;
   font-weight: bolder;
   margin-top: 100px;
+  padding-top: 100px;
 }
 .img{
   width: 150px;
@@ -158,4 +158,8 @@ nav a:hover {
 .contimg{
   text-align: center;
   margin-top: 60px;
+}
+.imgcon:hover{
+  width: 150px;
+  height: 150px;
 }
