@@ -24,13 +24,16 @@ nav a {
 .navlink {
   padding: 10px;
 }
+.intolinks{
+  padding: 15px;
+}
 .intolinks:hover{
   background-color: #333d4d;
   border-radius: 20px;
   color: #222831;
   font-size: medium;
   font-weight: bolder;
-  padding: 15px;
+
 }
 #home {
   padding-top: 2px;
@@ -162,4 +165,8 @@ nav a {
 .imgcon:hover{
   width: 150px;
   height: 150px;
+  padding: 10px;
+}
+.imgcon{
+  padding: 20px;
 }
