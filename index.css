@@ -48,20 +48,55 @@ nav a {
   margin-top: 300px;
   font-weight: bolder;
 }
+@media (min-width: 100px) {
+  #nametext {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #nametext {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #nametext {
+    font-size: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  #nametext {
+    font-size: 100px;
+  }
+}
+
 #about {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bolder;
   margin-top: 350px;
   padding-top: 100px;
 }
-
-.anasi {
-  color: rgb(255, 255, 255);
-  font-family: "Poppins", sans-serif;
-  font-weight: bolder;
+@media (min-width: 100px) {
+  #about {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #about {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #about {
+    font-size: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  #about {
+    font-size: 100px;
+  }
 }
 #aboutinfo {
   display: flex;
@@ -72,6 +107,26 @@ nav a {
   justify-content: center;
   padding: 0px 150px;
   margin-top: 15px;
+}
+@media (min-width: 100px) {
+  #aboutinfo{
+    font-size: 5px;
+  }
+}
+  @media (min-width: 768px) {
+    #aboutinfo{
+      font-size: 4px;
+    }
+}
+@media (min-width: 992px) {
+  #aboutinfo{
+    font-size: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  #aboutinfo{
+    font-size: 20px;
+  }
 }
 .card {
   padding: 10px;
@@ -130,9 +185,30 @@ nav a {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bolder;
   margin-top: 100px;
+  padding-top: 100px;
+}
+@media (min-width: 100px) {
+  #education {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #education {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #education {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  #education {
+    font-size: 100px;
+  }
 }
 .edutext {
   display: flex;
@@ -144,14 +220,54 @@ nav a {
   padding: 0px 150px;
   margin-top: 15px;
 }
+@media (min-width: 100px) {
+  .edutext{
+    font-size: 5px;
+  }
+}
+  @media (min-width: 768px) {
+    .edutext{
+      font-size: 10px;
+    }
+}
+@media (min-width: 992px) {
+  .edutext{
+    font-size: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .edutext{
+    font-size: 40px;
+  }
+}
 #contact {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bolder;
   margin-top: 100px;
   padding-top: 100px;
+}
+@media (min-width: 100px) {
+  #contact {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #contact {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #contact {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  #contact {
+    font-size: 100px;
+  }
 }
 .img {
   width: 150px;
@@ -162,11 +278,13 @@ nav a {
   margin-top: 60px;
 }
 .imgcon:hover {
-  filter: invert(22%) sepia(16%) saturate(6569%) hue-rotate(147deg) brightness(101%) contrast(103%);
+  filter: invert(22%) sepia(16%) saturate(6569%) hue-rotate(147deg)
+    brightness(101%) contrast(103%);
 }
 .imgcon {
   padding: 20px;
 }
-.imgcondis:hover{
-  filter: invert(22%) sepia(16%) saturate(6569%) hue-rotate(147deg) brightness(101%) contrast(103%);
+.imgcondis:hover {
+  filter: invert(22%) sepia(16%) saturate(6569%) hue-rotate(147deg)
+    brightness(101%) contrast(103%);
 }
