@@ -50,22 +50,30 @@ nav a {
 }
 @media (min-width: 100px) {
   #nametext {
-    font-size: 20px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 768px) {
   #nametext {
-    font-size: 40px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 992px) {
   #nametext {
-    font-size: 80px;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 1200px) {
   #nametext {
     font-size: 100px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -80,22 +88,30 @@ nav a {
 }
 @media (min-width: 100px) {
   #about {
-    font-size: 20px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 768px) {
   #about {
-    font-size: 40px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 992px) {
   #about {
     font-size: 80px;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 1200px) {
   #about {
-    font-size: 100px;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
   }
 }
 #aboutinfo {
@@ -110,22 +126,24 @@ nav a {
 }
 @media (min-width: 100px) {
   #aboutinfo{
-    font-size: 5px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
   }
 }
   @media (min-width: 768px) {
     #aboutinfo{
-      font-size: 4px;
+      font-size: 15px;
     }
 }
 @media (min-width: 992px) {
   #aboutinfo{
-    font-size: 10px;
+    font-size: 25px;
   }
 }
 @media (min-width: 1200px) {
   #aboutinfo{
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 .card {
@@ -192,22 +210,22 @@ nav a {
 }
 @media (min-width: 100px) {
   #education {
-    font-size: 20px;
+    font-size: 35px;
   }
 }
 @media (min-width: 768px) {
   #education {
-    font-size: 40px;
+    font-size: 70px;
   }
 }
 @media (min-width: 992px) {
   #education {
-    font-size: 70px;
+    font-size: 80px;
   }
 }
 @media (min-width: 1200px) {
   #education {
-    font-size: 100px;
+    font-size: 90px;
   }
 }
 .edutext {
@@ -222,17 +240,17 @@ nav a {
 }
 @media (min-width: 100px) {
   .edutext{
-    font-size: 5px;
+    font-size: 20px;
   }
 }
   @media (min-width: 768px) {
     .edutext{
-      font-size: 10px;
+      font-size: 25px;
     }
 }
 @media (min-width: 992px) {
   .edutext{
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 @media (min-width: 1200px) {
@@ -251,22 +269,22 @@ nav a {
 }
 @media (min-width: 100px) {
   #contact {
-    font-size: 20px;
+    font-size: 35px;
   }
 }
 @media (min-width: 768px) {
   #contact {
-    font-size: 40px;
+    font-size: 70px;
   }
 }
 @media (min-width: 992px) {
   #contact {
-    font-size: 70px;
+    font-size: 80px;
   }
 }
 @media (min-width: 1200px) {
   #contact {
-    font-size: 100px;
+    font-size: 90px;
   }
 }
 .img {
@@ -287,4 +305,46 @@ nav a {
 .imgcondis:hover {
   filter: invert(22%) sepia(16%) saturate(6569%) hue-rotate(147deg)
     brightness(101%) contrast(103%);
+}
+@media (min-width: 100px) {
+  .imgcon {
+    height: 70px;
+    width: 70px;
+  }
+}
+@media (min-width: 768px) {
+  .imgcon {
+    height: 90px;
+    width: 90px;
+  }
+}
+@media (min-width: 992px) {
+  .imgcon {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (min-width: 100px) {
+  .imgcondis {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .imgcondis {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media (min-width: 992px) {
+  .imgcondis {
+    height: 135px;
+    width: 135px;
+  }
+}
+@media (min-width: 1200px) {
+  .imgcondis {
+    height: 140px;
+    width: 140px;
+  }
 }
